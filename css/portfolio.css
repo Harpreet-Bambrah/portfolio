@@ -377,3 +377,11 @@ header{
        }
 }
 
+
+@media screen and (min-width:1400px) {
+    .img-div2{
+        right: 10%;
+        top:2%
+       }
+}
+
