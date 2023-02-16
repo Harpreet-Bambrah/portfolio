@@ -9,21 +9,6 @@ header{
     z-index: 99;
 }
 
-#h1-text{
-    animation: animation1 4s alternate infinite;
-}
-
-@keyframes animation1 {
-    from{
-        color: #77b5d9;
-       
-    } 
-    to{
-        color: #14397d;
-        
-    }   
-}
-
 .nav-link:hover{
     color: #14397d;
  
@@ -195,7 +180,14 @@ header{
     transition: all 1s;
 }
 
-
+.btn{
+    width: 48% !important;
+    --bs-btn-border-radius:10px;
+    --bs-btn-hover-bg:#d3d2d0;
+    --bs-btn-bg: #14397d;
+    --bs-btn-hover-border-color: #14397d;
+    --bs-btn-hover-color: #14397d;
+}
 
 .img-hover{
     position: absolute;
