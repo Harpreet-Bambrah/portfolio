@@ -254,12 +254,41 @@ header{
     display: flex;
 }
 
-body.mcWRN {
-    background-color: transparent;
-}
 
+ /* contact us section  */
 
+ .form-input1{
+    width: 40%;
+    margin-bottom: 10px; 
+    padding: 15px 10px;
+ }
 
+ .form-input2{
+    width: 84%; 
+    margin-left: 3%; 
+    margin-bottom: 20px;  
+    padding: 15px 10px;
+ }
+
+ .form-input3{
+    width: 84%; 
+    margin-left: 3%;  
+    padding: 15px 10px;
+ }
+
+ .form-textarea{
+    width: 84%; 
+    margin-left: 14%;
+ }
+
+ .form-btn{
+    width:40%; 
+    margin-left: 6%; 
+    margin-top: 10px; 
+    background-color: #14397d; 
+    color: #ffffff; 
+    padding: 15px 10px;
+ }
 
 /* media queries  */
 
@@ -305,6 +334,7 @@ body.mcWRN {
 
 }
 
+   
 
 @media screen and (max-width:575px) {
     
@@ -344,9 +374,36 @@ body.mcWRN {
    .img-w{
     width: 35%;
    }
+
+   .form-textarea {
+   width: 84.5%;
+    margin-left: 7.5%;
 }
 
 
+.form-input1{
+    width: 85%;
+}
+
+.form-input2{
+    width: 84.5%;
+    margin-left: 7.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-input3{
+    margin-left: 7.5%;
+    width: 84.5%;
+}
+
+.form-btn {
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 0px;
+}
+
+}
 @media screen and (min-width:576px) and (max-width:767px) {
     .img-div1{
         left: 40%;
