@@ -187,7 +187,7 @@ header{
     background-color: #14397d;
     color: #f8f9fa;
     border-radius: 50%;
-    padding: 20px;
+    padding: 16px 20px;
     margin-bottom: 15px;
     font-weight: 400;
 }
@@ -254,9 +254,9 @@ header{
     display: flex;
 }
 
-
-
-
+body.mcWRN {
+    background-color: transparent;
+}
 
 
 
